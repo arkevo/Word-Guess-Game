@@ -13,7 +13,10 @@ Letters Already Guessed
 Create an array - carBrands Array
     words from Car Brands theme
   
-Create a variable - livesRemaining Array
+Create a variable - livesRemaining
+    Lives remaining (number of times a user failed to guess a letter), set it to 12
+
+Create a variable - Wins 
     Lives remaining (number of times a user failed to guess a letter), set it to 12
 
 Create a function  - Word Selector
@@ -40,7 +43,10 @@ Create a function - LetterGuessing
                 replace the _ with the typed letters
        if the letters don't match chosen word letter, 
             decrease lives remaining by 1
-    
+    if all letters are answered end the game for with add 1 to wins 
+    if remaining guessed = 0 then end game and add 1 to losses
+
+
        
        
 

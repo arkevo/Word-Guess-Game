@@ -1,0 +1,50 @@
+pseudocode steps    
+
+Final Output
+
+Press any key to get started!
+Wins: 
+word display as _ _ _ _ _ initially
+as user user guesses correctly, reveal the letters
+number of guesses remaining 
+Letters Already Guessed 
+
+
+Create an array - carBrands Array
+    words from Car Brands theme
+  
+Create a variable - livesRemaining Array
+    Lives remaining (number of times a user failed to guess a letter), set it to 12
+
+Create a function  - Word Selector
+    if there are no more words, stop the function 
+    select a word from the array 
+    The length of the word will be calculated 
+    The length of the word will be display as underscores _ _ _ _ _
+    store the chosen word in variable storedWord
+
+Create a function - Score Updater
+    which will update the score 
+
+Call Word Selector and Update score function to start the game
+
+
+
+Create a function - LetterGuessing
+   run whenever a key is pressed 
+   determine which key was pressed and set it to the userInput variable
+   record the key pressed onto the HTML of the page under "Letters Already Guessed"
+   create a loop with an IF condition 
+        have the loop run through the letters in the string stored in storedWord 
+        if the letters match to the chosen word letter, 
+                replace the _ with the typed letters
+       if the letters don't match chosen word letter, 
+            decrease lives remaining by 1
+    
+       
+       
+
+
+
+
+

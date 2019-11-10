@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: 200%;
   background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h3 {
@@ -50,7 +52,10 @@ h2 {
 
   transform: rotate(-6deg);
 }
-
+.to-the-side {
+  width: 22%;
+  padding: 18px;
+}
 p {
   margin-top: 0px;
   font-size: 1.62em;
@@ -62,11 +67,10 @@ p {
   color: #767f82;
   color: #b66422;
 }
-
-.to-the-side {
-  width: 22%;
-  padding: 18px;
+.flexColumn {
+  flex-direction: column;
 }
+
 .to-the-left {
   order: 1;
   display: flex;
@@ -89,10 +93,6 @@ main {
 .container {
   display: flex;
   background-color: rgba(255, 255, 255, 0.904);
-}
-
-.flexColumn {
-  flex-direction: column;
 }
 
 .center {

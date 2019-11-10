@@ -1,10 +1,10 @@
 //Word Guess game by Ivo Kolev
 
-//Variables 
+                                    //Variables 
 
 
 // Create an array - carBrands Array
-var carBrandsArray = ["FERRARI", "FORD", "BMW", "MERCEDES", "CORVETTE", "FIAT", "MITSUBISHI"];
+var carBrandsArray = ["FERRARI", "FORD", "BMW", "MERCEDES", "CORVETTE", "FIAT", "MITSUBISHI", 'ACURA', 'BENTLEY', 'CADILLLAC', 'BUICK', "CHEVROLET" , "JAGUAR", "MASERATI", "MERCURY", "LINCOLN", "GENESIS", "GMC", "CHRYSLER", "DODGE", "JEEP", "KIA", "LEXUS", "LOTUS", "SCION", "SUBARU", "TOYOTA", "TESLA"];
 
 // Create a variable set to an empty array, where you will placece the underscore _ characters here
 var lettersGuessedElement = [];
@@ -19,7 +19,7 @@ var lossesElement = 0;
 var storeGuessedLetters = [];
 
 // Create a variable - to use
-var maxLives = 12;
+var maxLives = 10;
 
 //Create a variable - to store number of times a user failed to guess a letter 
 var guessesRemaining = 0;
@@ -34,7 +34,7 @@ var wordAnswer;
 //create a function which will run at the beginning at game and whenever the user has won or lost the game
 
 
-//Methods 
+                                        //Methods 
 
 
 //Create a randomizer to randomly choose a word from the array and store it in the wordAnswer variable
@@ -92,7 +92,8 @@ function lostGame() {
   }
 }
 
-//Main Process
+
+                                    //Main Process
 
 //Create a function which will fire on a key press 
 document.onkeyup = function(event) {

@@ -1,0 +1,104 @@
+body {
+  background-image: url("../images/carpic.jpg");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: center;
+}
+
+h3 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #dd5a5a;
+  position: relative;
+  top: 150px;
+  font-weight: bold;
+}
+
+#presskey {
+  color: #b66422;
+  margin-top: 0;
+  margin-bottom: -38px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#word-answer {
+  margin-top: 60px;
+  color: #b66422;
+  letter-spacing: 0.22em;
+}
+h4 {
+  font-size: 1.4em;
+  color: #b66422;
+  font-weight: bold;
+}
+h1 {
+  font-size: 3.35em;
+  text-align: center;
+  color: #3c0e00;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: -1px;
+  margin-right: -240px;
+  text-align: center;
+  font-size: 4.2em;
+  color: rgb(248, 248, 248);
+  text-shadow: -2px -2px 0 #b66422, 2px -2px 0 #b66422, -2px 2px 0 #b66422,
+    2px 2px 0 #b66422;
+
+  transform: rotate(-6deg);
+}
+
+p {
+  margin-top: 0px;
+  font-size: 1.62em;
+  text-align: center;
+  color: #b66422;
+}
+
+#letters-guessed {
+  color: #767f82;
+  color: #b66422;
+}
+
+.to-the-side {
+  width: 22%;
+  padding: 18px;
+}
+.to-the-left {
+  order: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.to-the-right {
+  order: 3;
+  overflow-wrap: break-word;
+  padding-bottom: 50px;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+}
+
+.container {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.904);
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.center {
+  padding: 15px;
+  border-left: 3px solid #919191;
+  border-right: 3px solid #919191;
+  flex: 1;
+  order: 2;
+}
